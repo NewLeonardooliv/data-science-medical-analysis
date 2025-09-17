@@ -1,7 +1,3 @@
-Com base na análise do novo notebook `FORECASTING MODALIDADE.ipynb`, complementei a documentação. Segue o README atualizado com as duas etapas do projeto.
-
----
-
 # Análise de Dados e Previsão de Demanda de Procedimentos Médicos
 
 ## Descrição do Projeto
@@ -53,5 +49,6 @@ Esta etapa, detalhada no notebook `FORECASTING MODALIDADE.ipynb`, focou na const
   - As visualizações (`plot_model`) confirmam a boa performance do modelo, mostrando uma distribuição de erros próxima do ideal e destacando a importância da feature `qtd_anterior` para a previsão.
 
 ## Conclusão Final
+
 
 O projeto foi bem-sucedido em realizar uma limpeza completa dos dados e extrair insights iniciais sobre faturamento. Subsequentemente, foi construído um modelo de regressão robusto com PyCaret, que se mostrou eficaz em prever a demanda futura de procedimentos com alta precisão (R² de 0.91). Este modelo pode ser utilizado para otimizar o planejamento de recursos, gestão de estoques e alocação de pessoal na instituição.
